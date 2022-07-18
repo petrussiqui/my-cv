@@ -15,7 +15,7 @@
     border: 50px solid #fbe8e8;
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: calc(50% - 70px);
     z-index: -1;
 }
 @keyframes floating {

@@ -13,9 +13,12 @@
   h5,
   h6 {
     font-family: "Montserrat", sans-serif;
-    /* color: var(--text-color); */
+     /* color: var(--text-color);  */
   }
-
+h1{
+      color: var(--text-color);  
+      font-size: xxx-large;
+}
   .w3-row-padding img {
     margin-bottom: 12px
   }
