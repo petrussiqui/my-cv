@@ -1,0 +1,77 @@
+:root {
+    --primary-color: #01aaff;
+    --secondary-color: #CDF1FF;
+    --text-color: #013042;
+    --accent-color: #FFB301;
+  }
+
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif;
+    /* color: var(--text-color); */
+  }
+
+  .w3-row-padding img {
+    margin-bottom: 12px
+  }
+
+  .w3-bg {
+    background-color: white;
+  }
+
+  .w3-bg-accent {
+    background: var(--secondary-color);
+  }
+
+  .w3-text {
+    color: var(--text-color);
+  }
+
+  /* Set the width of the sidebar to 120px */
+  .w3-sidebar {
+    width: 120px;
+    background: azure;
+  }
+
+  /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+  #main {
+    margin-left: 120px
+  }
+
+  .porf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .porf a {
+    text-decoration: none;
+  }
+
+  .porf a:hover {
+    color: var(--text-color);
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+  }
+
+  .porf .porf-items {
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .porf .porf-items p {
+    text-align: center;
+  }
+
+  /* Remove margins from "page content" on small screens */
+  @media only screen and (max-width: 600px) {
+    #main {
+      margin-left: 0
+    }
+  }
