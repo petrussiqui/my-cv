@@ -6,52 +6,242 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I'm Petrus Si Qui</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="icon" type="image/x-icon" href="/images/icon.png">
     <link rel="stylesheet" href="/css/petrus.css">
 </head>
 
 <body class="petrus">
-    <header id="petrus_header" class="container">
+    <header class="container">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand text-gradient" href="#">PSQ</a>
+                <a class="navbar-brand text-gradient" href="/">PSQ</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-text text-light" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-light" aria-current="page" href="#">About Me</a>
+                            <a class="nav-link text-light" aria-current="page" href="#petrus-about">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Contact</a>
+                            <a class="nav-link text-light" href="#petrus-porfolio">Porfolio</a>
                         </li>
-
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#petrus-hobbies">Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#petrus-contact">Contact</a>
+                        </li>
                     </ul>
                 </div>
+
             </div>
         </nav>
     </header>
-    <main id="petrus_main" class="container petrus_main">
-        <div class="justify-content-center text-center py-5">
-            <h1 class="text-gradient text-center py-5 d-inline-block">Hi, I'm Petrus Sĩ Quí </h1>
-            <br>
-            <button class="mx-3 py-2 px-4">Read More</button>
-            <button class="mx-3 py-2 px-4">Contact Me</button>
-        </div>
-    </main>
-    <footer id="petrus_footer" class="container">
+    <main class="container-fluid p-0">
+        <section class="section petrus-intro" id="totop">
+            <div class="petrus-intro-bg"></div>
+            <div class="container d-lg-flex justify-content-center align-items-lg-stretch h-100 pt-10">
+                <div class="pt-5 w-25">
 
+                    <img src="/images/home/Logo.png" alt="Logo Petrus" width="70%">
+
+                </div>
+                <div class="pt-5 w-75">
+                    <h1 class="text-gradient text-center py-5 d-inline-block display-2">Hi, I'm Petrus Sĩ Quí </h1>
+                    <br>
+
+                    <a href="#petrus-about" class="mx-3 py-2 px-4 btn-gradient">Read More</a>
+                    <a href="#petrus-contact" class="mx-3 py-2 px-4 btn-gradient">Contact Me</a>
+                </div>
+            </div>
+        </section>
+        <section class="section petrus-about" id="petrus-about">
+            <div class="petrus-about-bg"></div>
+            <div class="justify-content-center text-center py-5 container">
+                <h2 class="text-gradient text-center py-5 d-inline-block">About Me</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, animi voluptatum? Maiores
+                    molestiae asperiores voluptatem atque dicta saepe officia ullam soluta vitae magnam hic, quas
+                    suscipit repellendus repudiandae, aliquid eligendi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet molestias aliquid sed? Iusto, ipsam
+                    doloribus laborum laboriosam provident fuga quaerat quasi, aperiam mollitia commodi culpa corporis
+                    minus pariatur repellendus error.</p>
+            </div>
+        </section>
+        <section class="section petrus-porfolio d-flex" id="petrus-porfolio">
+            <div class="justify-content-center text-center py-5 container">
+                <h2 class="text-gradient text-center py-5 d-inline-block">My Porfolio</h2>
+                <br>
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                            aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                            class=""></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                            class="active" aria-current="true"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" class=""
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"
+                            class=""></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"
+                            aria-current="true"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" class=""
+                            aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7" aria-label="Slide 8"
+                            class=""></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="8" aria-label="Slide 9"
+                            aria-current="true"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <a href="https://vinasoy.com/nhan-hieu/sua-chua-uong-tu-thuc-vat-veyo/">
+                                        <img src="/images/porfolio/porf-petrus (9).png" target="_blank" alt="Portfolio"
+                                            class="w3-margin-bottom" width="100%">
+                                        <p>Vinasoy - Landing Page Veyo</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <a href="https://veyo.minigame.vinasoy.com/">
+                                        <img src="/images/porfolio/porf-petrus (1).png" target="_blank" alt="Portfolio"
+                                            class="w3-margin-bottom" width="100%">
+                                        <p>Vinasoy - Veyo MiniGame</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <a href="https://prima.jaysoft.asia/">
+                                        <img src="/images/porfolio/porf-petrus (2).png" target="_blank" alt="Portfolio"
+                                            class="w3-margin-bottom" width="100%">
+                                        <p>Prima Art and Gold - E-commerce</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <a href="https://paramibentre.jaysoft.asia/">
+                                        <img src="/images/porfolio/porf-petrus (3).png" target="_blank" alt="Portfolio"
+                                            class="w3-margin-bottom" width="100%">
+                                        <p>Parami Ben Tre - Resort</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <a href="https://dottorprimo.com.vn/">
+                                        <img src="/images/porfolio/porf-petrus (4).png" target="_blank" alt="Portfolio"
+                                            class="w3-margin-bottom" width="100%">
+                                        <p>DottoPrimo Intershop - Functional Foods</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <a href="https://irisresidence.vn/">
+                                        <img src="/images/porfolio/porf-petrus (5).png" target="_blank" alt="Portfolio"
+                                            class="w3-margin-bottom" width="100%">
+                                        <p>IrisResidence - Real Estate</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <a href="https://www.meta-ape.club/ape-clothing/">
+                                        <img src="/images/porfolio/porf-petrus (6).png" target="_blank" alt="Portfolio"
+                                            class="w3-margin-bottom" width="100%">
+                                        <p>Meta Ape Club - E-commerce</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <a href="https://ricotacosaigon.com/">
+                                        <img src="/images/porfolio/porf-petrus (7).png" target="_blank" alt="Portfolio"
+                                            class="w3-margin-bottom" width="100%">
+                                        <p>RicoTaco - Restaurance</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <a href="https://www.jaybranding.com/">
+                                        <img src="/images/porfolio/porf-petrus (8).png" target="_blank" alt="Portfolio"
+                                            class="w3-margin-bottom" width="100%">
+                                        <p>Jaybranding - Business</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="section petrus-hobbies" id="petrus-hobbies">
+            <div class="justify-content-center text-center py-5 container">
+                <h2 class="text-gradient text-center py-5 d-inline-block">My Hobbies</h2>
+                <br>
+                <a href="#" class="mx-3 py-2 px-4 btn-gradient">Read More</a>
+                <a href="#" class="mx-3 py-2 px-4 btn-gradient">Contact Me</a>
+            </div>
+        </section>
+
+    </main>
+    <footer id="petrus-contact" class="container">
+        <section class="section">
+
+            <a href="#totop" class="btn-totop">&uarr;</a>
+        </section>
     </footer>
 </body>
+
+<script src="/js/_scroll_page.js"></script>
 
 </html>
