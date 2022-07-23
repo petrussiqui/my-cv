@@ -12,12 +12,16 @@ body {
     background-color: var(--primary-color);
     color: var(--text-color);
 }
-h1,h2{
-    font-weight: 600!important;
+
+h1,
+h2 {
+    font-weight: 600 !important;
 }
-h2{
-   font-size: 54px;
+
+h2 {
+    font-size: 54px;
 }
+
 .btn-gradient {
     color: var(--text-color);
     background: transparent;
@@ -62,10 +66,11 @@ h2{
 }
 
 /* Header */
-header{
-   height: 100px;
-   margin-bottom: -100px;
+header {
+    height: 100px;
+    margin-bottom: -100px;
 }
+
 /* intro */
 .petrus-intro {
     /* background-image: url("/images/home/Petrus-001.png");
@@ -86,27 +91,27 @@ header{
     z-index: -999;
 }
 
-.pt-10{
+.pt-10 {
     padding-top: 15vh;
 }
+
 /* about */
 .petrus-about {
-    background-image: url("/images/home/Petrus-002.png");
+    background-image: url("/images/home/neon51.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
+    background-size: 20%;
+    background-position: left;
     height: 100vh;
     background-color: var(--primary-color);
 }
+
 .petrus-about-bg {
-    background-image: url("/images/home/Petrus-002.png");
+    /* background-image: url("/images/home/Petrus-002.png");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: bottom;
-    height: 100vh;
-    position: fixed;
+    background-size: 70%;
+    background-position: center bottom;
     width: 100%;
-    z-index: -999;
+    position: relative; */
 }
 
 /* porfolio */
@@ -118,34 +123,46 @@ header{
     height: 100vh;
     background-color: var(--primary-color);
 }
-.carousel-caption{
-    position: inherit!important;
+
+.carousel-caption {
+    position: inherit !important;
 }
-.carousel-caption img{
-   width: 70%;
+
+.carousel-caption img {
+    width: 70%;
 }
-.carousel-caption a{
+
+.carousel-caption a {
     padding-bottom: 20px;
     text-decoration: none;
 }
-.carousel-caption a p{
-    color:  var(--gradient--color--2);
+
+.carousel-caption a p {
+    color: var(--gradient--color--2);
     margin: 50px;
 }
+
 /* hobbies */
 .petrus-hobbies {
-    background-image: url("/images/home/Petrus-003.png");
+    background-image: url("/images/home/Petrus-004.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 70%;
     background-position: right bottom;
-    height: 100vh;
     background-color: var(--primary-color);
+    height: 100vh;
 }
 
 /* Footer */
-footer{
+footer {
     height: 100vh;
+    background-image: url("/images/home/Petrus-002.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center bottom;
+    background-color: var(--primary-color);
+
 }
+
 .btn-totop {
     height: 40px;
     width: 40px;
@@ -162,7 +179,8 @@ footer{
     text-decoration: none;
     color: var(--gradient--color--1);
 }
-.btn-totop:hover{
+
+.btn-totop:hover {
     border-color: var(--gradient--color--2);
     background-color: var(--gradient--color--2);
     color: var(--primary-color);
